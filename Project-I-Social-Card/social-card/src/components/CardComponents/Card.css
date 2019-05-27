@@ -1,1 +1,38 @@
 /* All styles for your Card Components live here */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;    
+}   
+
+.banner {
+    max-width: 85%;
+    align-self: flex-end;
+    margin-right: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card-content {
+    box-sizing: border-box;
+    max-width: 85%;
+    align-self: flex-end;
+    margin-right: 20px;
+    border: 1px solid #d3d3d3;
+    padding-left: 15px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+    .card-content h2 {
+        font-size: 1rem;
+    }
+
+    .card-content p {
+        margin: 10px 0;
+    }
+
+    .card-content h4 {
+        margin-top: 0;
+        color: #d3d3d3;
+    }
