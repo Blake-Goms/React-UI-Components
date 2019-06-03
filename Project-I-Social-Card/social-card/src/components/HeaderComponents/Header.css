@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.HeadCon {
+    display: flex;
+}
+
+.logo {
+    max-width: 75px;
+    height: 75px;
+    padding: 21px 0px;
+}
+
+.head {
+    padding-left: 5px;
+    max-width: 500px;
+}
+.head-title {
+    display: flex;
+    align-items: baseline;
+}
+
+h2 {
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+a {
+    padding-right: 10px;
+    color: #d3d3d3;
+}
+
+.head-title p {
+    color: #d3d3d3;
+}
+
+.head-content p {
+    margin-top: 3px;
+}
+
+
+
